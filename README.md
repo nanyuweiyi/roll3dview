@@ -3,6 +3,9 @@ Roll3DView
 #####简介
 >这是一个实现图片3D翻转的自定义view,包含四种3D翻转的效果以及一种2D平移效果。
 
+#####使用
+>implementation 'com.github.nanyuweiyi:roll3dview:1.0.0'
+
 ####效果
 **2D平移：**
 
