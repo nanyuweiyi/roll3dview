@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements myAdapter.CallBack{
 
-    Roll3DView roll3DView; //百叶窗、轮转、开合效果必须设置partnum
+    Roll3DView roll3DView; //百叶窗、轮转、开合效果必须设置setPartNum
     private MyPopwindow mListPopWindow;
 
     @Override
