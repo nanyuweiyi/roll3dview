@@ -1,12 +1,12 @@
 Roll3DView
 ----
-#####简介
+ 简介
 >这是一个实现图片3D翻转的自定义view,包含四种3D翻转的效果以及一种2D平移效果。
 
-#####使用
+使用
 >implementation 'com.github.nanyuweiyi:roll3dview:1.0.0'
 
-####效果
+效果
 **2D平移：**
 
 ![](https://github.com/zhangyuChen1991/some_sources/blob/master/3DView/2d.gif)
@@ -28,11 +28,11 @@ Roll3DView
 ![](https://github.com/zhangyuChen1991/some_sources/blob/master/3DView/inturn.gif)
 
 
-####使用
+使用
 >你可能乍一看以为它是一个ViewGroup的子类，其实不然，它是继承View实现的。并且，只有一个类，
 类的名字叫：Roll3DView。在你想要使用的地方把它拷贝过去，调用API使用就行。
 
-####API
+API
 >* addImageBitmap(Bitmap bitmap)  添加bitmap
 >
 >* removeBitmapAt(int index)  删除在index位置上的bitmap
@@ -50,7 +50,7 @@ Roll3DView
 >* setPartNumber(int partNumber)  在百叶窗、轮转、3D开合模式时设置分割的块数
 
 
-####补充说明
+补充说明
 >知识都是不断学习积累来的，做这个效果的时候参考了一个很棒的库，从中也学习到了很多。感谢原作者的开源精神，
 项目地址在这里：[传送门](https://github.com/ImmortalZ/StereoView)，大家可以移步过去学习。
 
